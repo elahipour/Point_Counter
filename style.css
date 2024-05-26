@@ -18,9 +18,19 @@ form{
     justify-content: center;
     align-items: center;
     margin:50px auto 0 auto;
-    background: rgba(235, 231, 231, 0.274);
+    background: rgba(6, 44, 52, 0.89);
     border-radius: 7px;
     flex-direction: column;
-    gap: 30px;
+    gap: 15px;
+}
+form>span{
+    color: #fff;
+    font-weight: bold;
+}
+form>textarea{
+    min-width: 80%;
+    max-width: 80%;
+    min-height: 70px;
+    max-height: 130px;
 }
 
